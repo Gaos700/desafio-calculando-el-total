@@ -11,5 +11,10 @@ totalSpan.textContent = 0;
 function sumar() {
     cantidad++;
     cantidadSpan.textContent = cantidad;
-    totalSpan.textContent = cantidad*precio
+    totalSpan.textContent = cantidad*precio;
+}
+function restar(){
+    cantidad--;
+    cantidadSpan.textContent = cantidad;
+    totalSpan.textContent = cantidad*precio;
 }
