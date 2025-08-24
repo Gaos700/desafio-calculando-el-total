@@ -14,7 +14,9 @@ function sumar() {
     totalSpan.textContent = cantidad*precio;
 }
 function restar(){
+    if (cantidad > 0){
     cantidad--;
     cantidadSpan.textContent = cantidad;
     totalSpan.textContent = cantidad*precio;
+    }
 }
